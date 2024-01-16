@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fortune Flip Fun</string>
+    <string name="title_activity_splasher">SplasherActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="policy_url">https://www.koderboi.site/privacy-policy</string>
+</resources>

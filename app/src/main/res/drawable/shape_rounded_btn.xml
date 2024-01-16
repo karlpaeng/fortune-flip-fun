@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:color="#69FFFFFF"
+tools:targetApi="tiramisu"> <!-- ripple effect color -->
+<item android:id="@android:id/background">
+    <shape android:shape="rectangle">
+        <gradient
+            android:startColor="@color/btn_orange"
+            android:endColor="@color/btn_red"
+            android:angle="270"/> <!-- background color -->
+        <corners
+            android:radius="30dp"
+            />
+    </shape>
+</item>
+</ripple>

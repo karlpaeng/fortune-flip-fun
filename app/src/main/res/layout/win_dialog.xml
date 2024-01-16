@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shape_rounded_box">
+    <TextView
+        android:id="@+id/TV01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You won! Your time is:"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/canava_regular"
+        android:textSize="20dp"
+        android:padding="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        app:layout_constraintTop_toBottomOf="@id/TV01"
+        android:gravity="center"
+        android:fontFamily="@font/canava_regular"
+        android:textColor="@color/black"
+        android:textSize="48dp"
+        android:paddingBottom="24dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
